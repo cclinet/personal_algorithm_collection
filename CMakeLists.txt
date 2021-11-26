@@ -4,3 +4,4 @@ project(personal_algorithm_collection)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(bin_digital)
+add_subdirectory(search_range)
