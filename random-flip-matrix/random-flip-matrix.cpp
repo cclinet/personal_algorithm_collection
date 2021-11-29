@@ -1,4 +1,3 @@
-#include <iostream>
 #include <array>
 #include <vector>
 #include <unordered_map>
@@ -41,8 +40,8 @@ public:
 private:
     int total_, m, n;
     unordered_map<int, int> map_;
-    std::random_device rd;  // 将用于为随机数引擎获得种子
-    std::mt19937 gen; // 以播种标准 mersenne_twister_engine
+    std::random_device rd;
+    std::mt19937 gen;
 };
 
 int main() {
