@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(bin_digital)
 add_subdirectory(search_range)
+add_subdirectory(single-number)
+add_subdirectory(random-flip-matrix)
