@@ -1,12 +1,11 @@
 #include <iostream>
-#include <array>
 #include <vector>
 
 using std::vector;
 
 int binary_search_left(const vector<int> &nums, int target) {
     int left = -1;
-    int right = static_cast<int> (nums.size());
+    int right = static_cast<int>(nums.size());
     while (left + 1 < right) {
         int mid = (left + right) / 2;
         if (nums[mid] < target) {
@@ -20,7 +19,7 @@ int binary_search_left(const vector<int> &nums, int target) {
 
 int binary_search_right(const vector<int> &nums, int target) {
     int left = -1;
-    int right = static_cast<int> (nums.size());
+    int right = static_cast<int>(nums.size());
     while (left + 1 < right) {
         int mid = (left + right) / 2;
         if (nums[mid] <= target) {
@@ -45,7 +44,7 @@ vector<int> searchRange(const vector<int> &nums, int target) {
 }
 
 int main() {
-    auto r = searchRange(std::vector<int>{2,2}, 3);
+    auto r = searchRange(std::vector<int>{2, 2}, 3);
     std::cout << r[0] << ' ' << r[1] << std::endl;
     return 0;
 }

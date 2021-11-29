@@ -1,5 +1,5 @@
-#include <iostream>
 #include <array>
+#include <iostream>
 
 
 unsigned long long bin_digital(int n) {

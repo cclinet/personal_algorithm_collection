@@ -1,14 +1,14 @@
 #include <array>
-#include <vector>
-#include <unordered_map>
 #include <random>
+#include <unordered_map>
+#include <vector>
 
-using std::vector;
 using std::unordered_map;
+using std::vector;
 
 class Solution {
 public:
-    Solution(int m, int n) : map_{}, total_(m * n), m(m), n(n), gen(rd()) {
+    Solution(int m, int n): map_{}, total_(m * n), m(m), n(n), gen(rd()) {
         map_.reserve(1000);
     }
 
