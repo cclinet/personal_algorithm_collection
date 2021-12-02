@@ -1,0 +1,1 @@
+add_executable(consecutive_characters consecutive_characters.cpp)
