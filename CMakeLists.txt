@@ -3,8 +3,9 @@ project(personal_algorithm_collection)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_subdirectory(bin_digital)
-add_subdirectory(search_range)
-add_subdirectory(single-number)
-add_subdirectory(random-flip-matrix)
-add_subdirectory(remove-duplicates-from-sorted-array)
+
+add_subdirectory(personal_algorithm_collection/bin_digital)
+add_subdirectory(personal_algorithm_collection/search_range)
+add_subdirectory(personal_algorithm_collection/single-number)
+add_subdirectory(personal_algorithm_collection/random-flip-matrix)
+add_subdirectory(personal_algorithm_collection/remove-duplicates-from-sorted-array)
