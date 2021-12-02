@@ -1,15 +1,14 @@
-#include <iostream>
 #include <array>
-#include <vector>
-#include <unordered_map>
 #include <random>
+#include <unordered_map>
+#include <vector>
 
-using std::vector;
 using std::unordered_map;
+using std::vector;
 
 class Solution {
 public:
-    Solution(int m, int n) : map_{}, total_(m * n), m(m), n(n), gen(rd()) {
+    Solution(int m, int n): map_{}, total_(m * n), m(m), n(n), gen(rd()) {
         map_.reserve(1000);
     }
 
@@ -41,8 +40,8 @@ public:
 private:
     int total_, m, n;
     unordered_map<int, int> map_;
-    std::random_device rd;  // 将用于为随机数引擎获得种子
-    std::mt19937 gen; // 以播种标准 mersenne_twister_engine
+    std::random_device rd;
+    std::mt19937 gen;
 };
 
 int main() {
