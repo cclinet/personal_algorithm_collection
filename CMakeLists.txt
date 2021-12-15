@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(personal_algorithm_collection)
+project(personal_algorithm_collection CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -11,3 +11,6 @@ add_subdirectory(personal_algorithm_collection/random_flip_matrix)
 add_subdirectory(personal_algorithm_collection/remove_duplicates_from_sorted_array)
 add_subdirectory(personal_algorithm_collection/consecutive_characters)
 add_subdirectory(personal_algorithm_collection/relative_ranks)
+add_subdirectory(personal_algorithm_collection/coloring_a_border)
+
+add_subdirectory(personal_algorithm_collection/compute_with_python)
