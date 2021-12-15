@@ -6,8 +6,6 @@ enum Operation {
     ADD, SUBTRACT, MULTIPLY, DIVIDE
 };
 
-PyObject *operate(PyObject *o1, PyObject *o2);
-
 typedef enum Operation operation_t;
 
 PyObject *str_to_decimal(PyObject *decimal_module, char *str) {
